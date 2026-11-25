@@ -17,7 +17,7 @@ import {
   text,
   verdict,
   z,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 
 export default function trello({ authMode, keyEnv, keyFile, keySecretFile, tokenSecretFile, ...options } = {}) {
   if (keyEnv !== undefined) envName.parse(keyEnv);
